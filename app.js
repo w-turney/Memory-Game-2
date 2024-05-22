@@ -77,7 +77,7 @@ function flipCard(elem, name) {
 
 function match(array) {
     array.forEach(elem => {
-        elem.src = 'images/white.png'
+        elem.style.opacity = 0;
         elem.removeEventListener('click', clickHandler)
     })
     score++
